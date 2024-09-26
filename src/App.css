@@ -205,19 +205,22 @@ body, html {
 @media only screen and (max-width: 430px) {
     .banner .container {
         justify-content: center;
+        padding: 0;
     }
     .banner .promo-text {
+        font-size: 50px;
         margin-top: 0;
         transform: none;
     }
 
     .banner .column-1 a {
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 10px;
     }
 
     .banner .column-2 img {
         bottom: -60px;
         right: 0px;
+        width: 500px;
     }
 }
